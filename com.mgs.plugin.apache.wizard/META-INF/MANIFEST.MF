@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MgsPluginApache
+Bundle-SymbolicName: com.mgs.plugin.apache.wizard;singleton:=true
+Bundle-Version: 0.0.2.alpha
+Bundle-Activator: com.mgs.plugin.apache.wizard.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui.console
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

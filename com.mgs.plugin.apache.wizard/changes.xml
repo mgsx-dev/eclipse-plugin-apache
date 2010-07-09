@@ -1,0 +1,39 @@
+<document>
+	<properties>
+		<title>com.mgs.plugin.apache</title>
+		<author email="mainge2036@hotmail.com" />
+	</properties>
+	<body>
+		<release version="0.0.1.alpha" date="2010-07-02" description="first release">
+			<action dev="mgs" type="add" date="2010-07-01">
+				Implementation for Linux (classic installation)
+			</action>
+		</release>
+		<release version="0.0.2.alpha" date="2010-07-05" description="second release">
+			<action dev="mgs" type="add" date="2010-07-02">
+				Implementation for Windows (WAMP, EasyPhp)
+			</action>
+			<action dev="mgs" type="add" date="2010-07-02">
+				Possibility to select the apache install directory (saved with the workspace)
+			</action>
+			<action dev="mgs" type="add" date="2010-07-02">
+				External commands are traced to the eclipse console.
+			</action>
+			<action dev="mgs" type="add" date="2010-07-05">
+				Alternate apache service (httpd instead of apache2) for Redhat.
+			</action>
+			<action dev="mgs" type="bug" date="2010-07-05">
+				The plugin does not appear in the plugin registry when put in the dropins or
+				plugin directory (ubuntu with eclipse helios installed in /opt/eclipse)
+			</action>
+			<action dev="mgs" type="bug" date="2010-07-05">
+				Apache.exe doesn't terminate when no error occuring (EasyPhp)
+			</action>
+			<action dev="mgs" type="fix" date="2010-07-05">
+				Reverse wrting in the sername field on windows.
+			</action>
+		</release>
+		<release version="0.0.3.alpha" date="in SVN" description="third release">
+		</release>
+	</body>
+</document>
