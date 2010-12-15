@@ -1,6 +1,7 @@
 package com.mgs.plugin.apache.wizard.external.windows;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import com.mgs.plugin.apache.wizard.external.ApacheAdmin;
@@ -103,7 +104,13 @@ public class ApacheAdminWindows extends ApacheAdminBase implements ApacheAdmin {
 		content = editor.getContents();
 		
 		if(editor.isModified()){
-			system.writeFile(hostsFile, content);
+			try{
+				system.writeFile(hostsFile, content);
+			}catch(FileNotFoundException e){
+				// restrictions.
+				// TODO send a user message : you have to modify the hosts file manually.
+				throw e;
+			}
 		}
 		
 	}
