@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.mgs.plugin.apache_1.0.0.rc1.jar" id="com.mgs.plugin.apache" version="1.0.0.rc1">
+      <category name="development"/>
+   </feature>
+   <category-def name="development" label="Development"/>
+</site>
